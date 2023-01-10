@@ -22,7 +22,7 @@ const peopleCopy = people.slice(1);
 people.indexOf("Foo"); //Write code that gives the index of “Foo”
 // Result: -1 because “Foo” is not a item of people array
 
-let last = people.length - 1; //Create a variable called last which value is the last element of the array
+let last = people[people.length - 1]; //Create a variable called last which value is the last element of the array
 
 /* 
 |Exercise 1 : List Of People
